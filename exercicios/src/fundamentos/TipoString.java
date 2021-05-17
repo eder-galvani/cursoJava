@@ -40,7 +40,6 @@ public class TipoString {
 		// exibe a partir do index selecionado, até o final informado (caractere
 		// anterior ao último)
 		System.out.println("Frase qualquer".substring(6, 8));
-
 	}
 
 }
