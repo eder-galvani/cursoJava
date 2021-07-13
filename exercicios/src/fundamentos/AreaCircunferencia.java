@@ -6,6 +6,6 @@ public class AreaCircunferencia {
 		final double PI = 3.14159;
 
 		double area = PI * raio * raio;
-		System.out.println("Área =" + area + "m2");
+		System.out.println("ï¿½area =" + area + "m2");
 	}
 }

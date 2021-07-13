@@ -6,15 +6,16 @@ public class IMC {
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
 
-		System.out.print("Olá! Digite o seu Peso em kg: ");
+		System.out.print("Olï¿½! Digite o seu Peso em kg: ");
 		double peso = entrada.nextDouble();
-		System.out.print("Olá! Digite sua altura em cm: ");
+		System.out.print("Olï¿½! Digite sua altura em cm: ");
 		double alt = entrada.nextDouble();
 
 		double imc = (peso / (Math.pow(alt, 2))) * 10000;
 		entrada.close();
-		System.out.println("O seu IMC é: " + imc);
-
+		System.out.println("O seu IMC ï¿½: " + imc);
+		
+		// parte feita extra curso
 		if (imc < 18.5) {
 			System.out.println("MAGREZA");
 		} else if (imc >= 18.5 && imc <= 24.9) {
