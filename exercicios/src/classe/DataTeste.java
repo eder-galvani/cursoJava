@@ -9,7 +9,7 @@ public class DataTeste {
 		
 		Data dt2 = new Data();
 		dt2.dia = 24;
-		dt2.mes = 3;
+		dt2.mes = 4;
 		dt2.ano = 1975;
 		
 		System.out.printf("Data 1 = %d/%d/%d", dt1.dia, dt1.mes, dt1.ano);
