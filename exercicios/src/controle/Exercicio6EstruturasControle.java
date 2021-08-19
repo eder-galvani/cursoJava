@@ -31,6 +31,7 @@ public class Exercicio6EstruturasControle {
 		}
 		if (i > 10) {
 			System.out.println("Você Perdeu. Tente novamente!");
+			System.out.println("O número era: " + numero);
 		}
 	}
 }
