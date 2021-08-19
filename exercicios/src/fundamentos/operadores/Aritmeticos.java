@@ -5,7 +5,7 @@ public class Aritmeticos {
 
 		System.out.println(2 + 3);
 
-		var x = 34.45;
+		double x = 34.45;
 		double y = 2.2;
 
 		System.out.println(x + y);
