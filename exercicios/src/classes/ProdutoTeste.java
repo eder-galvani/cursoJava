@@ -5,12 +5,12 @@ public class ProdutoTeste {
 		Produto p1 = new Produto();
 		p1.nome = "Notebook";
 		p1.preco = 4200.00;
-		p1.desconto = 0.25;
+		//p1.desconto = 0.25;
 		
 		Produto p2 = new Produto();
 		p2.nome = "Caneta";
 		p2.preco = 15.00;
-		p2.desconto = 0.10;
+		Produto.desconto = 0.10; //alterando o valor default do desconto
 		
 		System.out.println(p1.nome);
 		System.out.println(p2.nome);

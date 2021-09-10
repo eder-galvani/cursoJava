@@ -3,7 +3,7 @@ package classes;
 public class Produto {
 	String nome;
 	double preco;
-	double desconto ;
+	static double desconto = 0.25 ;
 	//não precisa de parametros quando a classe ja tem tudo que precisamos para o calculo
 	double precoComDesconto() {
 		return preco * (1 - desconto);
