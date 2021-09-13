@@ -21,9 +21,9 @@ public class Data {
 		ano = 1970;
 	}
 	Data (int diaInicial, int mesInicial, int anoInicial){
-		dia = diaInicial;
-		mes = mesInicial;
-		ano = anoInicial;		
+		this.dia = diaInicial;
+		this.mes = mesInicial;
+		this.ano = anoInicial;		
 	}
 	
 }
