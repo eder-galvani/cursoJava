@@ -3,7 +3,7 @@ package oo.heranca.desafio;
 public class CarroTeste {
 
 	public static void main(String[] args) {
-		Carro ferrari = new Ferrari();
+		Carro ferrari = new Ferrari(400);
 		Carro gol = new Gol();
 		
 		gol.acelerar();
