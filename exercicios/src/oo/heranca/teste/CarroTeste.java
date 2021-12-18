@@ -1,25 +1,41 @@
 package oo.heranca.teste;
 
-import oo.heranca.desafio.Carro;
 import oo.heranca.desafio.Ferrari;
 import oo.heranca.desafio.Gol;
 
 public class CarroTeste {
 
 	public static void main(String[] args) {
-		Carro ferrari = new Ferrari(400);
-		Carro gol = new Gol();
+				
+		Gol c1 = new Gol();
 		
-		gol.acelerar();
-		gol.acelerar();
-		gol.frear();
-		System.out.println("Velocidade do Gol =>" + gol.velocidadeAtual);
+		c1.acelerar();
+		System.out.println("Velocidade do Gol =>" + c1.velocidadeAtual);
+		
+		c1.acelerar();
+		System.out.println("Velocidade do Gol =>" + c1.velocidadeAtual);
+		
+		c1.frear();
+		System.out.println("Velocidade do Gol =>" + c1.velocidadeAtual);
+		
+		Ferrari ferrari = new Ferrari(400);
+		ferrari.ligarTurbo();
+		ferrari.ligarAr();
+		ferrari.desligarAr();
+		
+		System.out.println(ferrari.velocidadeDoAr());
 		
 		ferrari.acelerar();
-		ferrari.acelerar();
-		ferrari.frear();
-		
-		
 		System.out.println("Velocidade da Ferrari =>" + ferrari.velocidadeAtual);
+
+		ferrari.acelerar();
+		System.out.println("Velocidade da Ferrari =>" + ferrari.velocidadeAtual);
+		
+		ferrari.acelerar();
+		System.out.println("Velocidade da Ferrari =>" + ferrari.velocidadeAtual);
+
+		ferrari.frear();
+		System.out.println("Velocidade da Ferrari =>" + ferrari.velocidadeAtual);
+		
 	}
 }
