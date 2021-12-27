@@ -1,7 +1,5 @@
 package classes;
 
-import java.util.Date;
-
 public class Equals {
 	public static void main(String[] args) {
 
