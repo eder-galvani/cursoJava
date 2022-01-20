@@ -13,8 +13,8 @@ public class Produto {
 	}
 	
 	public String toString(){
-		double precoFinal = preco * (1 - desconto);
-		return "Produto: " + nome + " - tem preço de R$" + precoFinal;
+		double precoFinal = Math.round(preco * (1 - desconto) * 100.0) / 100.0;
+		return "Produto: " + nome + " - tem preço de R$" + precoFinal + " já com o Desconto." ;
 		
 	}	
 }
