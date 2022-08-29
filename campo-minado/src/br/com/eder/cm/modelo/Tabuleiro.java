@@ -58,9 +58,9 @@ public class Tabuleiro {
 		sortearMinas();
 	}
 	
-	//public String toString() {
-		//descomentar na proxima aula
-	//}
+	public String toString() {
+		return "";
+	}
 	
 	
 	
